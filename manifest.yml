@@ -1,0 +1,11 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 2
+  domain: mybluemix.net
+  name: test2345smith
+  host: test2345smith
+  disk_quota: 1024M
+  services:
+  - test2345smith-cloudantNoSQLDB
+  - Monitoring and Analytics-sc
